@@ -1,15 +1,15 @@
 
-let numTwo = 1;
-let numThree = 2;
-
-var summation = function (num){
-
-    while(num >= numThree){
-        numTwo = numTwo + numThree;
-        console.log(numTwo);
-        console.log(`this is numThree currently: ${numThree}`);
-        numThree++;
-    }
-    
-}
+    function summation(n){
+        let num = 0;
+        
+        for(let i = 0; i <= n; i++){
+          num += i;
+          //console.log(n);
+          
+          console.log(`${num} + ${i}`);
+        }
+        console.log(num);
+        return num;
+        
+      }
 
