@@ -1,7 +1,6 @@
 /*
     Title:  Grasshopper - Array Mean
 
-
     Description:
 
         Find Mean
