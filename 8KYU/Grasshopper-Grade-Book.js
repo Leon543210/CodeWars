@@ -35,3 +35,10 @@ function grade(a, b, c){
         return 'F'
     }
 }
+
+/*
+    Notes:
+    -Could have also used ternary operator, for each 'grade' and result comparison respectively
+    -could have used .reduce with result comparison (90/80/70/60), 
+        though dependent on language used as this solution used "...arr" as parameter
+*/
